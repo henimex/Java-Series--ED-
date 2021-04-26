@@ -25,5 +25,7 @@ public class Main {
 
         ProductManager productManager = new ProductManager();
         productManager.Add(product);
+
+        System.out.println("Test");
     }
 }
