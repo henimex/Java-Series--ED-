@@ -17,15 +17,16 @@ public class Main {
         System.out.println(result4);
 
         Product product = new Product();
-        product.id = 1;
-        product.name = "ASUS Laptop";
-        product.description = "Intel i5";
-        product.price = 3450;
-        product.stock = 6;
+        product.setId(1);
+        product.setName("ASUS Laptop");
+        product.setDescription("Intel i5");
+        product.setPrice(1212);
+        product.setStock(5);
+        product.setColor("Black");
 
         ProductManager productManager = new ProductManager();
         productManager.Add(product);
 
-        System.out.println("Test");
+        System.out.println(product.getCode());
     }
 }
