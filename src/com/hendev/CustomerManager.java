@@ -1,16 +1,14 @@
 package com.hendev;
 
-public class CustomerManager {
-    public void  Add(){
-        System.out.println("Customer Added");
-    }
+public class CustomerManager extends PersonManager {
+
 
     public void  Delete(){
-        System.out.println("Customer Added");
+        System.out.println("via CustomerManager Deleted");
     }
 
     public void  Update(){
-        System.out.println("Customer Added");
+        System.out.println("Customer Updated");
     }
 }
 

@@ -28,5 +28,13 @@ public class Main {
         productManager.Add(product);
 
         System.out.println(product.getCode());
+
+        System.out.println("Inheritance ---------------");
+
+        Customer customer = new Customer();
+        customer.firstName = "Ferhat";
+
+        customerManager.Add();
+
     }
 }
