@@ -60,5 +60,9 @@ public class Main {
         GameCalculator gameCalculator = new KidsGameCalculator();
         gameCalculator.CalcNew();
         gameCalculator.GameOver();
+
+        SectionManager sectionManager = new SectionManager();
+        sectionManager._baseDbManager = new MySqlDBManager();
+        sectionManager.getSections();
     }
 }
