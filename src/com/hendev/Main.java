@@ -36,5 +36,12 @@ public class Main {
 
         customerManager.Add();
 
+        TeacherCreditManager teacherCreditManager = new TeacherCreditManager();
+        teacherCreditManager.Calculate();
+
+        CreditUI creditUI = new CreditUI();
+        creditUI.BaseCalculate(new TeacherCreditManager());
+        creditUI.BaseCalculate(new FarmerCreditManger());
+        creditUI.BaseCalculate(new SoldierCreditManager());
     }
 }
