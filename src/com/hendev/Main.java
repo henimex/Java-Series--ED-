@@ -1,9 +1,11 @@
 package com.hendev;
 
+import com.hendev.PolyMorphismDemo.EmailLogger;
+
 public class Main {
 
     public static void main(String[] args) {
-        CustomerManager customerManager = new CustomerManager();
+        CustomerManager customerManager = new CustomerManager(new EmailLogger());
         customerManager.Add();
 
         SimpleMath simpleMath = new SimpleMath();
@@ -38,6 +40,8 @@ public class Main {
 
         TeacherCreditManager teacherCreditManager = new TeacherCreditManager();
         teacherCreditManager.Calculate();
+        var creditResult = teacherCreditManager.CalculateNew(1000);
+        System.out.println("Credit Result : " + creditResult);
 
         CreditUI creditUI = new CreditUI();
         creditUI.BaseCalculate(new TeacherCreditManager());
@@ -45,5 +49,12 @@ public class Main {
         creditUI.BaseCalculate(new SoldierCreditManager());
 
         System.out.println("Git Test");
+
+        BaseCreditManager[] creditManagers = new BaseCreditManager[]{new TeacherCreditManager(), new FarmerCreditManger(), new StudentCreditManager()};
+
+        for (BaseCreditManager creditManager: creditManagers) {
+            var multiCalc = creditManager.CalculateNew(1000);
+            System.out.println(multiCalc);
+        }
     }
 }
