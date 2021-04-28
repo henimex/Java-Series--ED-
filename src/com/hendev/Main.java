@@ -56,5 +56,9 @@ public class Main {
             var multiCalc = creditManager.CalculateNew(1000);
             System.out.println(multiCalc);
         }
+
+        GameCalculator gameCalculator = new KidsGameCalculator();
+        gameCalculator.CalcNew();
+        gameCalculator.GameOver();
     }
 }
