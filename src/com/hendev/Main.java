@@ -43,5 +43,7 @@ public class Main {
         creditUI.BaseCalculate(new TeacherCreditManager());
         creditUI.BaseCalculate(new FarmerCreditManger());
         creditUI.BaseCalculate(new SoldierCreditManager());
+
+        System.out.println("Git Test");
     }
 }
