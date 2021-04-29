@@ -2,6 +2,8 @@ package com.hendev;
 
 import com.hendev.PolyMorphismDemo.EmailLogger;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -64,5 +66,10 @@ public class Main {
         SectionManager sectionManager = new SectionManager();
         sectionManager._baseDbManager = new MySqlDBManager();
         sectionManager.getSections();
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter Your Name");
+        String name = scanner.nextLine();
+        System.out.println("Hello: " + name);
     }
 }
