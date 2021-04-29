@@ -1,6 +1,11 @@
 package com.hendev;
 
 import com.hendev.PolyMorphismDemo.EmailLogger;
+//import maths.Logarithm;
+//import maths.MathSimple;
+//new import for both package is
+import maths.*;
+
 
 import java.util.Scanner;
 
@@ -71,5 +76,11 @@ public class Main {
         System.out.println("Enter Your Name");
         String name = scanner.nextLine();
         System.out.println("Hello: " + name);
+
+        MathSimple math = new MathSimple();
+        math.Sum(1,2);
+
+        Logarithm logarithm = new Logarithm();
+        logarithm.calculate();
     }
 }

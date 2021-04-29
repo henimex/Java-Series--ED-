@@ -11,7 +11,7 @@ public class DataBaseHelper {
 
         }
     }
-
+    // ! Single Responsibility - Not Recommended
     public static class Connection {
 
         public static void createConnection(){
