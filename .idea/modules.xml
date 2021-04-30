@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/AnotherApp/AnotherApp.iml" filepath="$PROJECT_DIR$/AnotherApp/AnotherApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/CollectionUsage/CollectionUsage.iml" filepath="$PROJECT_DIR$/CollectionUsage/CollectionUsage.iml" />
       <module fileurl="file://$PROJECT_DIR$/ExceptionHandling/ExceptionHandling.iml" filepath="$PROJECT_DIR$/ExceptionHandling/ExceptionHandling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FileReadWrite/FileReadWrite.iml" filepath="$PROJECT_DIR$/FileReadWrite/FileReadWrite.iml" />
       <module fileurl="file://$PROJECT_DIR$/Interfaces/Interfaces.iml" filepath="$PROJECT_DIR$/Interfaces/Interfaces.iml" />
       <module fileurl="file://$PROJECT_DIR$/OOP-1.iml" filepath="$PROJECT_DIR$/OOP-1.iml" />
       <module fileurl="file://$PROJECT_DIR$/StaticUsage/StaticUsage.iml" filepath="$PROJECT_DIR$/StaticUsage/StaticUsage.iml" />
