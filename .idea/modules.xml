@@ -9,6 +9,8 @@
       <module fileurl="file://$PROJECT_DIR$/Interfaces/Interfaces.iml" filepath="$PROJECT_DIR$/Interfaces/Interfaces.iml" />
       <module fileurl="file://$PROJECT_DIR$/OOP-1.iml" filepath="$PROJECT_DIR$/OOP-1.iml" />
       <module fileurl="file://$PROJECT_DIR$/StaticUsage/StaticUsage.iml" filepath="$PROJECT_DIR$/StaticUsage/StaticUsage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThreadingUsage/ThreadingUsage.iml" filepath="$PROJECT_DIR$/ThreadingUsage/ThreadingUsage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VeryImportantGenerics/VeryImportantGenerics.iml" filepath="$PROJECT_DIR$/VeryImportantGenerics/VeryImportantGenerics.iml" />
     </modules>
   </component>
 </project>
